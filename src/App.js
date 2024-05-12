@@ -5,6 +5,8 @@ import { store } from './store';
 import Navbar from './Components/Navbar';
 import Login from './Components/Login';
 import Dashboard from './Components/Dashboard';
+import LineChart from './Components/Charts';
+
 
 function App() {
   return (
@@ -12,6 +14,7 @@ function App() {
       <Router>
         <div className="App">
           <Navbar />
+          <LineChart />
           <Routes>
             <Route path="/login" element={<Login />} />
             <Route path="/dashboard" element={<Dashboard />} />

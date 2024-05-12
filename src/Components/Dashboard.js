@@ -13,7 +13,7 @@ function Dashboard() {
       <article className="charts-container">
         <Charts />
       </article>
-      
+
     </section>
   );
 }
